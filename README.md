@@ -172,6 +172,34 @@ description: >-
 ---
 ```
 
+### Registo: `skills.json`
+
+O `skills.json` na raiz do repositório é o índice que os agentes de instalação leem para saber o que existe e o que é obrigatório:
+
+```json
+{
+  "skills": [
+    {
+      "name": "project-rules",
+      "path": "project-rules",
+      "alwaysOn": ["general"],
+      "description": "Uma linha, para o seletor de skills."
+    }
+  ]
+}
+```
+
+| Campo | Obrigatório | Significado |
+| :--- | :---: | :--- |
+| `name` | não | Identificador da skill. Por omissão, o nome da pasta. |
+| `path` | **sim** | Pasta da skill dentro do repositório. |
+| `alwaysOn` | não | Módulos de `references/` a carregar em **qualquer** tarefa que toque código. Por omissão `["general"]`. |
+| `description` | não | Uma linha, para quem lista as skills. |
+
+**Porquê `alwaysOn`:** declara aqui o que é universal. O que é específico de um projecto pertence ao `AGENTS.md` desse projecto — não a este repositório. Assim só há uma fonte de verdade para cada decisão.
+
+> Sem `skills.json`, quem instala ainda descobre as skills por varrimento: cada pasta de primeiro nível com um `SKILL.md` é uma skill. O índice só é necessário quando quiseres declarar `alwaysOn` ou mais do que uma skill.
+
 ---
 
 ## 👥 Autor & Contribuições

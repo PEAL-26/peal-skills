@@ -13,7 +13,8 @@ Este arquivo define as diretrizes arquiteturais e regras de desenvolvimento carr
 ---
 
 ## 📚 Referências Oficiais da Skill `project-rules`
-Este projeto herda e aplica as regras modulares centralizadas em `D:\dev\AI\skills\project-rules`:
+
+As regras moram dentro da própria pasta da skill `project-rules`, sob `references/`. Os caminhos abaixo são relativos a essa pasta — carrega apenas os módulos que a tarefa pedir.
 
 - **Gerais:**
   - [Padrões de Código e Tipagem](../references/general/coding-standards.md)

@@ -4,13 +4,16 @@ Este arquivo define as diretrizes para este aplicativo móvel desenvolvido com E
 
 ## Perfil do Projeto
 - **Tipo:** FRONTEND (Mobile iOS/Android)
-- **Framework:** Expo SDK 54+ / React Native 0.81+
+- **Framework:** Expo SDK 55+ / React Native 0.83+ (Nova Arquitetura obrigatória)
 - **Linguagem:** TypeScript Estrito (`strict: true`)
 - **Nomenclatura:** `kebab-case` estrito para todos os arquivos e pastas
 
 ---
 
 ## 📚 Referências Oficiais da Skill `project-rules`
+
+As regras moram dentro da própria pasta da skill `project-rules`, sob `references/`. Os caminhos abaixo são relativos a essa pasta — carrega apenas os módulos que a tarefa pedir.
+
 - **Gerais:**
   - [Padrões de Código e Tipagem](../references/general/coding-standards.md)
   - [Os 5 Pilares de Segurança](../references/general/security.md)

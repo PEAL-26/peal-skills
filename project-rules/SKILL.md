@@ -44,7 +44,7 @@ O assistente deve carregar e consultar as referências específicas conforme o p
 - [Formulários e Prevenção de Concorrência](./references/frontend/forms.md) — React Hook Form + Zod, `<fieldset disabled={isMutating}>` e botão com loading.
 - [Next.js App Router](./references/frontend/nextjs-frontend.md) — Server Components por padrão, `proxy.ts`, `nuqs`, TanStack Query.
 - [Vite + React SPA](./references/frontend/vite-spa.md) — Variáveis `VITE_*` tipadas, React Router / TanStack Router.
-- [Expo Mobile (React Native)](./references/frontend/expo-mobile.md) — SDK 54, `kebab-case` estrito, sem barrel files.
+- [Expo Mobile (React Native)](./references/frontend/expo-mobile.md) - SDK 55+ / React Native 0.83+, `kebab-case` estrito, sem barrel files.
 - [HTML Vanilla & Animações](./references/frontend/html-vanilla.md) — Zero build, ciclo de vida `mount`/`cleanup`, movimento reduzido.
 
 ### C. Módulos de Backend

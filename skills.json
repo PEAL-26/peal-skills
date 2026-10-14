@@ -1,0 +1,10 @@
+{
+  "skills": [
+    {
+      "name": "project-rules",
+      "path": "project-rules",
+      "alwaysOn": ["general"],
+      "description": "Guardião central de arquitetura, segurança (5 Pilares), tipagem estrita e convenções para Fullstack, Backend e Frontend."
+    }
+  ]
+}

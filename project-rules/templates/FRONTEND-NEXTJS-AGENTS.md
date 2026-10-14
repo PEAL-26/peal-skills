@@ -14,6 +14,9 @@ Este arquivo define as diretrizes para este projeto de frontend com Next.js e Re
 ---
 
 ## 📚 Referências Oficiais da Skill `project-rules`
+
+As regras moram dentro da própria pasta da skill `project-rules`, sob `references/`. Os caminhos abaixo são relativos a essa pasta — carrega apenas os módulos que a tarefa pedir.
+
 - **Gerais:**
   - [Padrões de Código e Tipagem](../references/general/coding-standards.md)
   - [Os 5 Pilares de Segurança](../references/general/security.md)

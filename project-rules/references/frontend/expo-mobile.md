@@ -1,6 +1,8 @@
 # Frontend Mobile (Expo & React Native)
 
-Padrões de desenvolvimento para aplicativos móveis (iOS e Android) com Expo SDK 54+ e React Native.
+Padrões de desenvolvimento para aplicativos móveis (iOS e Android) com Expo SDK 55+ e React Native 0.83+.
+
+> **Nota de versão:** o Expo emparelha cada SDK com uma versão exacta de React Native — SDK 55 traz RN 0.83 e React 19.2. A partir do SDK 55 a Arquitetura Legada deixou de existir: `newArchEnabled` já não é uma opção de `app.json` e qualquer biblioteca que ainda não suporte a Nova Arquitetura é um bloqueador.
 
 ---
 
